@@ -13,6 +13,7 @@ public class Variabler {
         byte a = 127;
         short c = 1001;
         int b = 10024;
+        long b2 = 102938297;
 
         b = a + c;
 
@@ -25,7 +26,7 @@ public class Variabler {
         boolean g = false;
 
         // String
-        String h = "Pølse";
+        String navn = "Peter";
 
         // Char
         char i = 'b';
@@ -42,7 +43,7 @@ public class Variabler {
         System.out.println(a+b);
         System.out.println(a+d);
         System.out.println(a+h);
-        
+
 
     }
 
