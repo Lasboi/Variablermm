@@ -1,5 +1,6 @@
 /**
  * Developed by András Ács (acsandras@gmail.com)
+ * Added long descriptions by Lasse Nielsen
  * Zealand / www.zealand.dk
  * Licensed under the MIT License
  * 2019-09-09
@@ -13,7 +14,12 @@ public class Variabler {
         byte a = 127;
         short c = 1001;
         int b = 10024;
-        long b2 = 102938297;
+        
+        //Java kan ikke læse en long på over 9 tal medmindre man definere i sin kode at man gerne vil have et langt tal.
+        //Java kan komme til at læse over 9 cifre hvis man sætter et L (stort eller lille l) bag sit tal og på den måde
+        //Kan man benytte en long til sit fulde potentiale.
+        long xMax = 9223372036854775807L;
+        long xMin = -9223372036854775808L;
 
         b = a + c;
 
